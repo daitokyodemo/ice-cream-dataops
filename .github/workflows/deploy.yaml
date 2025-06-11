@@ -25,8 +25,8 @@ jobs:
       CDF_CLUSTER: westeurope-1
       # You need to replace the number in CDF_PROJECT with your own CDF project number
       CDF_PROJECT: cdf-bootcamp-64-${{ matrix.environment }}
-      IDP_TOKEN_URL: https://login.microsoftonline.com/d6b6f4d9-751b-4f55-a3cc-896fcce2b011/oauth2/v2.0/token
-      IDP_TENANT_ID: d6b6f4d9-751b-4f55-a3cc-896fcce2b011
+      IDP_TOKEN_URL: https://login.microsoftonline.com/16e3985b-ebe8-4e24-9da4-933e21a9fc81/oauth2/v2.0/token
+      IDP_TENANT_ID: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 
       IDP_CLIENT_ID: ${{ vars.IDP_CLIENT_ID }}
       IDP_CLIENT_SECRET: ${{ secrets.IDP_CLIENT_SECRET }}

@@ -1,4 +1,4 @@
-git checkout -b day3c
+git checkout -b day3d
 git add .
 git commit -m "correct deploy.yaml"
-git push --set-upstream origin day3c
+git push --set-upstream origin day3d
